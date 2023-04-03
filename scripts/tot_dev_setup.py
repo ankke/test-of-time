@@ -9,7 +9,7 @@ def install_hooks():
     script_files = [
         "install_hooks.bash",
         "pre_commit.bash",
-        "pre_push.bash",
+        # "pre_push.bash",
     ]
     for script_f in script_files:
         file = os.path.join(dir_scripts, script_f)
